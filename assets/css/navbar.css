@@ -1,0 +1,157 @@
+.icon-open-navbar {
+    font-size: 30px;
+    cursor: pointer
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #FF473A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 999;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 15px;
+}
+
+.sidenav li {
+    padding: 10px 0;
+}
+
+.sidenav li img {
+    padding-right: 15px;
+}
+
+.sidenav a {
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.sidenav .icon-search img {
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.input-search {
+    border: 1px solid #fff;
+    color: #fff;
+    height: 42px;
+    width: 75%;
+    background-color: transparent;
+}
+
+.input-search::placeholder {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.navbar-content {
+    position: relative;
+}
+
+.box-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    right: -5px;
+    display: flex;
+    background-color: #FF473A;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+.box-search__input {
+    width: 100%;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 40px;
+    background: transparent;
+}
+
+.box-search__btn {
+    margin-right: -5px;
+    color: #fff;
+    height: 40px;
+    font-size: 48px;
+    margin-top: -15px;
+    opacity: 0;
+}
+
+.box-search__input::placeholder {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.navbar-content img {
+    float: left;
+    clear: both;
+    display: table;
+    padding-right: 8px;
+}
+
+.navbar-content-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3px;
+}
+
+.navbar-content-item::after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width .2s ease-in-out;
+    animation: fadein 2s;
+    width: 0;
+}
+
+.navbar-content-item:hover::after {
+    width: 100%;
+}
+
+.navbar-content-item.active::after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width .2s ease-in-out;
+    animation: fadein 2s;
+    width: 100%;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

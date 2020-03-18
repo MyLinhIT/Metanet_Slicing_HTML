@@ -1,0 +1,20 @@
+#wrap {
+  padding: 0 -15px;
+}
+.stacked-cards {
+  padding: 15px 0px;
+}
+
+.stacked-cards li {
+  height: 250px;
+}
+
+.stacked-cards-slide .stacked-cards__card {
+  width: 325px;
+}
+
+.stacked-cards li img {
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+}

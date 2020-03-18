@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Become a Member</title>
+
+  <!-- CDN -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=vietnamese"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="navbar-mobile navbar-content">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div id="navbar-search">
+        <a href="#" class="icon-search"><img src="./assets/image/icon/search.svg" alt="Icon search"></a>
+        <input class="input-search" type="text" placeholder="Search">
+      </div>
+      <ul id="sidebar-menu">
+        <li>
+          <img src="./assets/image/icon/exhibitions.svg" alt="Exhibitions & Events">
+          <a class="navbar-content-item" href="./exhibition.html">
+            Exhibitions & Events </a>
+        </li>
+        <li>
+          <img src="./assets/image/icon/artists.svg" alt="Artists & Artworks">
+          <a class="navbar-content-item" href="./index.html">Artists & Artworks </a>
+        </li>
+        <li>
+          <img src="./assets/image/icon/collections.svg" alt="Collections">
+          <a class="navbar-content-item" href="./collection.html">Collections </a>
+        </li>
+        <li>
+          <img src="./assets/image/icon/subtract.svg" alt="Collections">
+          <a class="navbar-content-item" href="./ticket.html">Plan Your Visit </a>
+        </li>
+        <li>
+          <img src="./assets/image/icon/become.svg" alt="Become a Member">
+          <a class="navbar-content-item active" href="./membership.html">Become a Member </a>
+        </li>
+        <li>
+          <img src="./assets/image/icon/shop.svg" alt="Shop">
+          <a class="navbar-content-item" href="./shop.html">Shop</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="page-container">
+    <nav class="navbar-mobile">
+      <span class="mobile navbar-header"><a href="/index.html">The <br> art museum</a></span>
+      <span class="title-color-pink title-primary ">Become a Member</span>
+      <span class="icon-open-navbar" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <nav class="navbar">
+      <span class="navbar-header"><a href="/index.html">The art museum</a></span>
+      <div class="navbar-content">
+        <ul>
+          <li>
+            <!-- <img src="./assets/image/icon/exhibitions.svg" alt="Exhibitions & Events"> -->
+            <a class="navbar-content-item" href="/exhibition.html" onclick="activeNavbarItem(0)">
+              Exhibitions & Events </a>
+          </li>
+          <li>
+            <!-- <img src="./assets/image/icon/artists.svg" alt="Artists & Artworks"> -->
+            <a class="navbar-content-item" href="/index.html" onclick="activeNavbarItem(1)">Artists & Artworks
+            </a>
+          </li>
+          <li>
+            <!-- <img src="./assets/image/icon/collections.svg" alt="Collections"> -->
+            <a class="navbar-content-item" href="/collection.html" onclick="activeNavbarItem(0)">Collections </a>
+          </li>
+          <li>
+            <!-- <img src="./assets/image/icon/subtract.svg" alt="Collections"> -->
+            <a class="navbar-content-item" href="/ticket.html" onclick="activeNavbarItem(0)">Plan Your Visit </a>
+          </li>
+          <li>
+            <!-- <img src="./assets/image/icon/become.svg" alt="Become a Member"> -->
+            <a class="navbar-content-item active" href="/membership.html" onclick="activeNavbarItem(0)">Become a Member
+            </a>
+          </li>
+          <li>
+            <!-- <img src="./assets/image/icon/shop.svg" alt="Shop"> -->
+            <a class="navbar-content-item" href="/shop.html" onclick="activeNavbarItem(0)">Shop</a>
+          </li>
+        </ul>
+        <a href="#" class="icon-search" onclick="openSearch()"><img src="./assets/image/icon/search.svg"
+            alt="Icon search"></a>
+        <div class="box-search">
+          <input class="box-search__input" placeholder="Search">
+          <a href="javascript:void(0)" class="box-search__btn" onclick="closeSearch()">&times;</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="page-container-content become-page become-page-response">
+
+      <div class="become-page-left">
+        <div class="become-page__header">
+          <img src="./assets/image/slider/become-member.png" />
+          <span class="become-page__header--title">Your Museum.<br> Your Bounty of Experience.</span>
+
+        </div>
+        <div class="become-page__desc responsive">
+          <span>Choose the membership that’s the best fit for you.
+            Click on a level to view the full description of benefits.</span>
+        </div>
+      </div>
+      <div class="become-page-right">
+        <div class="become-page__product responsive">
+          <div class="product__price">
+            <div class="product__price--text">
+              <h3>Individual—$75</h3>
+              <p>$60 tax deductible</p>
+            </div>
+            <div class="product__price--button">
+              <img src="./assets/image/icon/right-chevron.svg" />
+            </div>
+          </div>
+          <div class="product__price">
+            <div class="product__price--text">
+              <h3>Dual—$125</h3>
+              <p>$60 tax deductible</p>
+            </div>
+            <div class="product__price--button">
+              <img src="./assets/image/icon/right-chevron.svg" />
+            </div>
+          </div>
+          <div class="product__price">
+            <div class="product__price--text">
+              <h3>Supporter—$300</h3>
+              <p>$60 tax deductible</p>
+            </div>
+            <div class="product__price--button">
+              <img src="./assets/image/icon/right-chevron.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="become-page__button responsive">
+          <button class="btn">Join Today</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

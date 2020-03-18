@@ -1,0 +1,114 @@
+.ticket-page__header {
+  width: 250px;
+}
+
+.ticket-page__header--title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.ticket-page__header--desc {
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF473A;
+  font-weight: 400;
+}
+
+.ticket-page__content--tab {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ticket-page__content--tab::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: #D4D4D4;
+
+}
+
+/* Style the buttons inside the tab */
+
+.ticket-page__content--tab button {
+  background-color: inherit;
+  color: #D4D4D4;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 18px;
+  position: relative;
+}
+
+/* Change background color of buttons on hover */
+
+.ticket-page__content--tab button:hover, .ticket-page__content--tab button.active {
+  text-decoration: underline;
+  color: #000;
+}
+
+.ticket-page__content--tab button:hover::before, .ticket-page__content--tab button.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #FF473A;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.tabcontent__time {
+  color: #000;
+  font-weight: 400;
+}
+.tabcontent__product {
+  text-align: left;
+  margin-top: 53px;
+}
+.tabcontent__product .product__price {
+  min-height: 40px;
+}
+#Tomorrow {
+  display: block;
+}
+.divider {
+  margin-top: 50px;
+  width: 100%;
+  display: block;
+  border-top: 2px solid #FF473A;
+}
+
+.ticket-page__content--total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.ticket-page__content--button {
+  text-align: center;
+}
+.ticket-page__content--button .btn {
+  width: 250px;
+}
+
+.product__price--button .active {
+  text-decoration: underline;
+  color: #000;
+  font-weight: 400;
+}

@@ -1,0 +1,73 @@
+.page-container .page-container-content.exhibition-page {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.container-dot {
+  text-align: center;
+}
+
+.container-dot .container-dot__item {
+  height: 6px;
+  width: 6px;
+  background: #DADADA;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container-dot .container-dot__item.active {
+  background: #FF473A;
+}
+
+.container-dot .container-dot__item:hover {
+  cursor: pointer;
+  background: #FF473A;
+  opacity: .8;
+}
+
+.container-description {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.collapsible {
+  color: #979797;
+  background-color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.icon-chevron {
+  color: #979797;
+  margin-left: 5px;
+}
+.icon-chevron:hover {
+  cursor: pointer;
+}
+.icon-right-chevron, .collapsible-close {
+  display: none;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.collapsible-content {
+  max-height: 0;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  opacity: 0;
+  color: #979797;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}

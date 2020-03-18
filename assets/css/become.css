@@ -1,0 +1,39 @@
+.become-page__header {
+  position: relative;
+}
+
+.become-page__header img {
+  width: 100%;
+}
+
+.become-page__header--title {
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FCFCFC;
+}
+
+.become-page__desc {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #979797;
+  width: 80%;
+  padding: 10px;
+}
+.product__price--button img {
+  cursor: pointer;
+}
+.become-page__product {
+  padding: 0 30px;
+}
+.become-page__button {
+  text-align: center;
+  margin-top: 50px;
+}
+.become-page__button .btn{
+  width: 250px;
+}

@@ -1,0 +1,39 @@
+
+@import "./login.css";
+@import "./home.css";
+@import "./_media-query.css";
+@import "./global-style.css";
+@import "./navbar.css";
+@import "./exhibition.css";
+@import "./slider.css";
+@import "./stackedCards.css";
+@import "./shop.css";
+@import "./collection.css";
+@import "./ticket.css";
+@import "./become.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif !important;
+  font: 'Montserrat', sans-serif !important;
+}
+
+ 
