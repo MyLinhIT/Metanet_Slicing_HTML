@@ -1,3 +1,6 @@
+.page-container .page-container-content.become-page {
+  padding: 0;
+}
 .become-page__header {
   position: relative;
 }

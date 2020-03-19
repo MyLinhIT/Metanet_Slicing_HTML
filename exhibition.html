@@ -18,164 +18,175 @@
 </head>
 
 <body>
-    <div class="navbar-mobile navbar-content">
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div id="navbar-search">
-                <a href="#" class="icon-search"><img src="./assets/image/icon/search.svg" alt="Icon search"></a>
-                <input class="input-search" type="text" placeholder="Search">
-            </div>
-            <ul id="sidebar-menu">
-                <li>
-                    <img src="./assets/image/icon/exhibitions.svg" alt="Exhibitions & Events">
-                    <a class="navbar-content-item active" href="./exhibition.html">
-                        Exhibitions & Events </a>
-                </li>
-                <li>
-                    <img src="./assets/image/icon/artists.svg" alt="Artists & Artworks">
-                    <a class="navbar-content-item" href="./index.html">Artists & Artworks </a>
-                </li>
-                <li>
-                    <img src="./assets/image/icon/collections.svg" alt="Collections">
-                    <a class="navbar-content-item" href="./collection.html">Collections </a>
-                </li>
-                <li>
-                    <img src="./assets/image/icon/subtract.svg" alt="Collections">
-                    <a class="navbar-content-item" href="./ticket.html">Plan Your Visit </a>
-                </li>
-                <li>
-                    <img src="./assets/image/icon/become.svg" alt="Become a Member">
-                    <a class="navbar-content-item" href="./membership.html">Become a Member </a>
-                </li>
-                <li>
-                    <img src="./assets/image/icon/shop.svg" alt="Shop">
-                    <a class="navbar-content-item" href="./shop.html">Shop</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    <div class="page-container">
-        <nav class="navbar-mobile">
-            <span class="mobile navbar-header"><a href="/index.html">The <br> art museum</a></span>
-            <span class="title-color-pink title-primary ">Exhibition Preview</span>
-            <span class="icon-open-navbar" onclick="openNav()">&#9776;</span>
-        </nav>
-
-        <nav class="navbar">
-            <span class="navbar-header"><a href="/index.html">The art museum</a></span>
-            <div class="navbar-content">
-                <ul>
+    <div class="wrapper">
+        <div class="navbar-mobile navbar-content">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div id="navbar-search">
+                    <a href="#" class="icon-search"><img src="./assets/image/icon/search.svg" alt="Icon search"></a>
+                    <input class="input-search" type="text" placeholder="Search">
+                </div>
+                <ul id="sidebar-menu">
                     <li>
-                        <!-- <img src="./assets/image/icon/exhibitions.svg" alt="Exhibitions & Events"> -->
-                        <a class="navbar-content-item active" href="/exhibition.html" onclick="activeNavbarItem(0)">
+                        <img src="./assets/image/icon/exhibitions.svg" alt="Exhibitions & Events">
+                        <a class="navbar-content-item active" href="./exhibition.html">
                             Exhibitions & Events </a>
                     </li>
                     <li>
-                        <!-- <img src="./assets/image/icon/artists.svg" alt="Artists & Artworks"> -->
-                        <a class="navbar-content-item" href="/index.html" onclick="activeNavbarItem(1)">Artists &
-                            Artworks
-                        </a>
+                        <img src="./assets/image/icon/artists.svg" alt="Artists & Artworks">
+                        <a class="navbar-content-item" href="./index.html">Artists & Artworks </a>
                     </li>
                     <li>
-                        <!-- <img src="./assets/image/icon/collections.svg" alt="Collections"> -->
-                        <a class="navbar-content-item" href="/collection.html" onclick="activeNavbarItem(0)">Collections
-                        </a>
+                        <img src="./assets/image/icon/collections.svg" alt="Collections">
+                        <a class="navbar-content-item" href="./collection.html">Collections </a>
                     </li>
                     <li>
-                        <!-- <img src="./assets/image/icon/subtract.svg" alt="Collections"> -->
-                        <a class="navbar-content-item" href="/ticket.html" onclick="activeNavbarItem(0)">Plan Your Visit
-                        </a>
+                        <img src="./assets/image/icon/subtract.svg" alt="Collections">
+                        <a class="navbar-content-item" href="./ticket.html">Plan Your Visit </a>
                     </li>
                     <li>
-                        <!-- <img src="./assets/image/icon/become.svg" alt="Become a Member"> -->
-                        <a class="navbar-content-item" href="/membership.html" onclick="activeNavbarItem(0)">Become a
-                            Member </a>
+                        <img src="./assets/image/icon/become.svg" alt="Become a Member">
+                        <a class="navbar-content-item" href="./membership.html">Become a Member </a>
                     </li>
                     <li>
-                        <!-- <img src="./assets/image/icon/shop.svg" alt="Shop"> -->
-                        <a class="navbar-content-item" href="/shop.html" onclick="activeNavbarItem(0)">Shop</a>
+                        <img src="./assets/image/icon/shop.svg" alt="Shop">
+                        <a class="navbar-content-item" href="./shop.html">Shop</a>
                     </li>
-                </ul>
-                <a href="#" class="icon-search" onclick="openSearch()"><img src="./assets/image/icon/search.svg"
-                        alt="Icon search"></a>
-                <div class="box-search">
-                    <input class="box-search__input" placeholder="Search">
-                    <a href="javascript:void(0)" class="box-search__btn" onclick="closeSearch()">&times;</a>
-                </div>
-            </div>
-        </nav>
 
-        <div class="page-container-content exhibition-page">
-            <div class="container-title-box">
-                <p class="title-box title-secondary">RETROSPECTIVE</p>
-                <p class="title-box title-primary">DOROTHEA LANGE</p>
-                <p class="title-box title-color-pink title-primary ">OCTOBER 15 - MARCH 18</p>
-                <p class="title-box title-secondary">Floor 3</p>
+                </ul>
             </div>
-            <div class="container-slider-description">
-                <div id="wrap">
-                    <div class="container-fixed stacked-cards stacked-cards-slide">
-                        <ul>
-                            <li class="stacked-cards__card">
-                                <img src="./assets/image/slider/slider_1.jpg">
-                            </li>
-                            <li class="stacked-cards__card">
-                                <img src="./assets/image/slider/slider_2.jpg">
-                            </li>
-                            <li class="stacked-cards__card">
-                                <img src="./assets/image/slider/slider_3.jpg">
-                            </li>
-                            <li class="stacked-cards__card">
-                                <img src="./assets/image/slider/slider_4.jpg">
-                            </li>
-                            <li class="stacked-cards__card">
-                                <img src="./assets/image/slider/slider_5.jpg">
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="container-dot">
-                        <span class="container-dot__item" onclick="activeDot(0)"></span>
-                        <span class="container-dot__item" onclick="activeDot(1)"></span>
-                        <span class="container-dot__item active" onclick="activeDot(2)"></span>
-                        <span class="container-dot__item" onclick="activeDot(3)"></span>
-                        <span class="container-dot__item" onclick="activeDot(4)"></span>
-                    </div>
-                    <div class="container-description">
-                        <p class="label-description">“Abandoned Dust Bowl Home” <br> Gelatin silver print <br> about
-                            1935 -
-                            1940</p>
+        </div>
+        <div class="page-container">
+            <nav class="navbar-mobile">
+                <span class="mobile navbar-header"><a href="/index.html">The <br> art museum</a></span>
+                <span class="title-color-pink title-primary ">Exhibition Preview</span>
+                <span class="icon-open-navbar" onclick="openNav()">&#9776;</span>
+            </nav>
+
+            <nav class="navbar">
+                <span class="navbar-header"><a href="/index.html">The art museum</a></span>
+                <div class="navbar-content">
+                    <ul>
+                        <li>
+                            <!-- <img src="./assets/image/icon/exhibitions.svg" alt="Exhibitions & Events"> -->
+                            <a class="navbar-content-item active" href="/exhibition.html" onclick="activeNavbarItem(0)">
+                                Exhibitions & Events </a>
+                        </li>
+                        <li>
+                            <!-- <img src="./assets/image/icon/artists.svg" alt="Artists & Artworks"> -->
+                            <a class="navbar-content-item" href="/index.html" onclick="activeNavbarItem(1)">Artists &
+                                Artworks
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <img src="./assets/image/icon/collections.svg" alt="Collections"> -->
+                            <a class="navbar-content-item" href="/collection.html"
+                                onclick="activeNavbarItem(0)">Collections
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <img src="./assets/image/icon/subtract.svg" alt="Collections"> -->
+                            <a class="navbar-content-item" href="/ticket.html" onclick="activeNavbarItem(0)">Plan Your
+                                Visit
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <img src="./assets/image/icon/become.svg" alt="Become a Member"> -->
+                            <a class="navbar-content-item" href="/membership.html" onclick="activeNavbarItem(0)">Become
+                                a
+                                Member </a>
+                        </li>
+                        <li>
+                            <!-- <img src="./assets/image/icon/shop.svg" alt="Shop"> -->
+                            <a class="navbar-content-item" href="/shop.html" onclick="activeNavbarItem(0)">Shop</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="icon-search" onclick="openSearch()"><img src="./assets/image/icon/search.svg"
+                            alt="Icon search"></a>
+                    <div class="box-search">
+                        <input class="box-search__input" placeholder="Search">
+                        <a href="javascript:void(0)" class="box-search__btn" onclick="closeSearch()">&times;</a>
                     </div>
                 </div>
-                <div class="container-content">
-                    <div class="container-content__header">
-                        <div class="collapsible-header">
-                            <button class="collapsible collapsible-open" onclick="openCollapse()">BIOGRAPHY</button>
-                            <button class="collapsible collapsible-close" onclick="closeCollapse()">BIOGRAPHY</button>
-                            <img class="icon-chevron icon-down-chevron" src="./assets/image/icon/chevron-down.png"
-                                onclick="openCollapse()" />
-                            <img class="icon-chevron icon-right-chevron" src="./assets/image/icon/chevron-up.png"
-                                onclick="closeCollapse()" />
+            </nav>
+
+            <div class="page-container-content exhibition-page">
+                <div class="container-title-box">
+                    <p class="title-box title-secondary">RETROSPECTIVE</p>
+                    <p class="title-box title-primary">DOROTHEA LANGE</p>
+                    <p class="title-box title-color-pink title-primary ">OCTOBER 15 - MARCH 18</p>
+                    <p class="title-box title-secondary">Floor 3</p>
+                </div>
+                <div class="container-slider-description">
+                    <div id="wrap">
+                        <div class="container-fixed stacked-cards stacked-cards-slide">
+                            <ul>
+                                <li class="stacked-cards__card">
+                                    <img src="./assets/image/slider/slider_1.jpg">
+                                </li>
+                                <li class="stacked-cards__card">
+                                    <img src="./assets/image/slider/slider_2.jpg">
+                                </li>
+                                <li class="stacked-cards__card">
+                                    <img src="./assets/image/slider/slider_3.jpg">
+                                </li>
+                                <li class="stacked-cards__card">
+                                    <img src="./assets/image/slider/slider_4.jpg">
+                                </li>
+                                <li class="stacked-cards__card">
+                                    <img src="./assets/image/slider/slider_5.jpg">
+                                </li>
+                            </ul>
                         </div>
-                        <div class="collapsible-content">
-                            <p>
-                                Dorothea Lange (May 26, 1895 – October 11, 1965) was an influential American documentary
-                                photographer and photojournalist,
-                                best known for her Depression-era work for the Farm Security Administration (FSA).
-                                Lange's photographs humanized the consequences of the Great Depression and influenced
-                                the development of documentary photography.
-                                Born of second generation German immigrants on May 26, 1895, at 1041 Bloomfield Street,
-                                Hoboken, New Jersey,
-                                [1][2] Dorothea Lange was named Dorothea Margaretta Nutzhorn at birth.
-                                She dropped her middle name and assumed her mother's maiden name after her father
-                                abandoned the family when she was 12 years old,
-                                one of two traumatic incidents early in her life.
-                                The other was her contraction of polio at age seven which left her with a weakened right
-                                leg and a permanent limp.
-                                [1][2] "It formed me, guided me, instructed me, helped me and humiliated me," Lange once
-                                said of her altered gait.
-                                "I've never gotten over it, and I am aware of the force and power of it."[3]
-                            </p>
+                        <div class="container-dot">
+                            <span class="container-dot__item" onclick="activeDot(0)"></span>
+                            <span class="container-dot__item" onclick="activeDot(1)"></span>
+                            <span class="container-dot__item active" onclick="activeDot(2)"></span>
+                            <span class="container-dot__item" onclick="activeDot(3)"></span>
+                            <span class="container-dot__item" onclick="activeDot(4)"></span>
+                        </div>
+                        <div class="container-description">
+                            <p class="label-description">“Abandoned Dust Bowl Home” <br> Gelatin silver print <br> about
+                                1935 -
+                                1940</p>
+                        </div>
+                    </div>
+                    <div class="container-content">
+                        <div class="container-content__header">
+                            <div class="collapsible-header">
+                                <button class="collapsible collapsible-open" onclick="openCollapse()">Biography</button>
+                                <button class="collapsible collapsible-close"
+                                    onclick="closeCollapse()">Biography</button>
+                                <img class="icon-chevron icon-down-chevron" src="./assets/image/icon/chevron-down.png"
+                                    onclick="openCollapse()" />
+                                <img class="icon-chevron icon-right-chevron" src="./assets/image/icon/chevron-up.png"
+                                    onclick="closeCollapse()" />
+                            </div>
+                            <div class="collapsible-content">
+                                <p>
+                                    Dorothea Lange (May 26, 1895 – October 11, 1965) was an influential American
+                                    documentary
+                                    photographer and photojournalist,
+                                    best known for her Depression-era work for the Farm Security Administration (FSA).
+                                    Lange's photographs humanized the consequences of the Great Depression and
+                                    influenced
+                                    the development of documentary photography.
+                                    Born of second generation German immigrants on May 26, 1895, at 1041 Bloomfield
+                                    Street,
+                                    Hoboken, New Jersey,
+                                    [1][2] Dorothea Lange was named Dorothea Margaretta Nutzhorn at birth.
+                                    She dropped her middle name and assumed her mother's maiden name after her father
+                                    abandoned the family when she was 12 years old,
+                                    one of two traumatic incidents early in her life.
+                                    The other was her contraction of polio at age seven which left her with a weakened
+                                    right
+                                    leg and a permanent limp.
+                                    [1][2] "It formed me, guided me, instructed me, helped me and humiliated me," Lange
+                                    once
+                                    said of her altered gait.
+                                    "I've never gotten over it, and I am aware of the force and power of it."[3]
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

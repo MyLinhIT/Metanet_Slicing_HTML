@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .page-container .navbar {
     display: none;
   }
@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 768px) {
   .container-login {
-    width: 70%;
+    width: 500px;
   }
   .block-label-address {
     flex-direction: row !important;
@@ -146,9 +146,7 @@
 } 
 
 @media screen and (min-width: 1140px) {
-  .container-login {
-    width: 35%;
-  }
+
   .heading-primary {
     font-size: 50px;
     width: 270px;
